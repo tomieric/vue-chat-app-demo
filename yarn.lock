@@ -670,6 +670,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@cometchat-pro/chat@^1.8.6":
+  version "1.8.6"
+  resolved "http://npm.kuaizitech.cn/@cometchat-pro%2fchat/-/chat-1.8.6.tgz#3da0f8c8989b5712316f9ba84803a09aa15d143d"
+  integrity sha1-PaD4yJibVxIxb5uoSAOgmqFdFD0=
+
 "@hapi/address@2.x.x":
   version "2.0.0"
   resolved "http://npm.kuaizitech.cn/@hapi%2faddress/-/address-2.0.0.tgz#9f05469c88cb2fd3dcd624776b54ee95c312126a"

@@ -1,12 +1,31 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+import { CometChat } from '@cometchat-pro/chat';
+export default {
+  created () {
+    this.initliazeApp();
+  },
+  methods: {
+    initliazeApp () {
+      const { VUE_APP_COMMETCHAT_APP_ID } = process.env;
+      console.log(VUE_APP_COMMETCHAT_APP_ID)
+      CometChat.init(VUE_APP_COMMETCHAT_APP_ID).then(
+        () => {
+          console.log('Initialize completed successfully')
+        },
+        err => {
+          console.error(err)
+        }
+      )
+    }
+  }
+}
+</script>
 
 <style>
 #app {
