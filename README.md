@@ -1,4 +1,4 @@
-# vue-chart-app
+# vue-chat-app
 
 [介绍](https://github.com/tomieric/tomieric.github.io/issues/53)
 
