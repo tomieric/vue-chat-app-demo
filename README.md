@@ -1,5 +1,7 @@
 # vue-chart-app
 
+[介绍](https://github.com/tomieric/tomieric.github.io/issues/53)
+
 ## Project setup
 ```
 yarn install
